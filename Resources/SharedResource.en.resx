@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="0" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="Nav_Work" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="Nav_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Nav_Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Nav_Impressum" xml:space="preserve">
+    <value>Imprint</value>
+  </data>
+
+  <!-- Index/Home -->
+  <data name="Home_Title" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Home_Slogan" xml:space="preserve">
+    <value>Software &amp; Design</value>
+  </data>
+
+  <!-- About Page -->
+  <data name="About_Title" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="About_Intro" xml:space="preserve">
+    <value>Full-stack developer and graphic designer with a psychology background. I create digital experiences that are beautiful, functional, and grounded in how people actually think and behave.</value>
+  </data>
+  <data name="About_Skills" xml:space="preserve">
+    <value>Skills</value>
+  </data>
+  <data name="About_Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="About_Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="About_EnterpriseSystems" xml:space="preserve">
+    <value>Enterprise Systems</value>
+  </data>
+  <data name="About_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="About_Databases" xml:space="preserve">
+    <value>Databases</value>
+  </data>
+  <data name="About_ToolsPlatforms" xml:space="preserve">
+    <value>Tools/Platforms</value>
+  </data>
+  <data name="About_GameDev" xml:space="preserve">
+    <value>Game Development</value>
+  </data>
+  <data name="About_Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="About_Experience" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="About_ExperienceText" xml:space="preserve">
+    <value>I work with enterprise software solutions, specializing in backend PHP development, automated invoice and PDF generation, e-Rechnungen compliance, and custom ERP system implementation. This work has given me deep expertise in business logic, database optimization, and regulatory compliance in the financial sector. Combined with my freelance work in web development, game design, and creative coding, I bring a unique perspective to building both consumer-facing and enterprise applications.</value>
+  </data>
+  <data name="About_Interests" xml:space="preserve">
+    <value>Interests</value>
+  </data>
+  <data name="About_InterestsText" xml:space="preserve">
+    <value>Creative coding, interactive design and analog photography-exploring the intersection of aesthetics, psychology, and intentional simplicity. I prefer elegant minimalism over needless complexity. Whether designing interfaces or composing photographs, I'm drawn to intentional work that respects the people's time and attention.</value>
+  </data>
+  <data name="About_GraphicDesign" xml:space="preserve">
+    <value>Graphic Design</value>
+  </data>
+  <data name="About_InvoiceManagement" xml:space="preserve">
+    <value>Invoice Management</value>
+  </data>
+  <data name="About_PDFGeneration" xml:space="preserve">
+    <value>PDF Generation</value>
+  </data>
+
+  <!-- Contact Page -->
+  <data name="Contact_Title" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Contact_Intro" xml:space="preserve">
+    <value>Let's connect! Reach out for collaborations, projects, or just to say hello.</value>
+  </data>
+
+  <!-- Impressum Page -->
+  <data name="Impressum_Title" xml:space="preserve">
+    <value>Imprint</value>
+  </data>
+  <data name="Impressum_InfoHeader" xml:space="preserve">
+    <value>Information according to § 5 TMG</value>
+  </data>
+  <data name="Impressum_Country" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+  <data name="Impressum_ContactHeader" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Impressum_ResponsibleHeader" xml:space="preserve">
+    <value>Responsible for content according to § 55 Abs. 2 RStV</value>
+  </data>
+  <data name="Impressum_AddressAsAbove" xml:space="preserve">
+    <value>Address as above</value>
+  </data>
+
+  <!-- Work Page -->
+  <data name="Work_Title" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="Work_Intro" xml:space="preserve">
+    <value>Explore my portfolio of projects and creative work.</value>
+  </data>
+  <data name="Work_MixGenussDesc" xml:space="preserve">
+    <value>A comprehensive cooking app for Thermomix users with over 20,000+ downloads on Google Play and iOS App-Store. Features include a large recipe database, smart shopping lists, personal recipe collections, and exclusive digital cookbooks.</value>
+  </data>
+  <data name="Work_ViewOnGooglePlay" xml:space="preserve">
+    <value>View on Google Play</value>
+  </data>
+  <data name="Work_ViewOnAppStore" xml:space="preserve">
+    <value>View on iOS App-Store</value>
+  </data>
+  <data name="Work_AAADesc" xml:space="preserve">
+    <value>Organizational website for a youth development association and music festival. Features include event management, custom shop integration for tickets and merchandise, and comprehensive content management for community engagement.</value>
+  </data>
+  <data name="Work_VisitWebsite" xml:space="preserve">
+    <value>Visit Website</value>
+  </data>
+  <data name="Work_TaigaDesc" xml:space="preserve">
+    <value>A modern, multilingual website for a rap artist featuring dynamic content, optimized performance, and seamless user experience across different languages.</value>
+  </data>
+
+  <!-- Language Toggle -->
+  <data name="Language_Toggle" xml:space="preserve">
+    <value>DE</value>
+  </data>
+</root>

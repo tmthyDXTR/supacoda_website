@@ -1,0 +1,70 @@
+@page
+@model WorkModel
+@{
+    ViewData["Title"] = Localizer["Work_Title"].Value;
+}
+
+<div class="content-section">
+    <h1>@Localizer["Work_Title"]</h1>
+    <p>@Localizer["Work_Intro"]</p>
+    
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>MixGenuss App</h3>
+            <div class="project-tech">
+                <span class="tech-tag">Cordova</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">iOS</span>
+                <span class="tech-tag">Android</span>
+            </div>
+            <p>@Localizer["Work_MixGenussDesc"]</p>
+            <div class="project-images">
+                <img src="~/images/work_1/mixg_01.png" asp-append-version="true" alt="MixGenuss Screenshot 1" />
+                <img src="~/images/work_1/mixg_02.png" asp-append-version="true" alt="MixGenuss Screenshot 2" />
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=de.mixgenuss&hl=de" target="_blank" class="project-link">@Localizer["Work_ViewOnGooglePlay"]</a>
+            <a href="https://apps.apple.com/de/app/mixgenuss/id1643532655" target="_blank" class="project-link">@Localizer["Work_ViewOnAppStore"]</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>AgratAmAgatha Festival</h3>
+            <div class="project-tech">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Custom Shop</span>
+            </div>
+            <p>@Localizer["Work_AAADesc"]</p>
+            <div class="project-images">
+                <img src="~/images/work_2/aaa_1.png" asp-append-version="true" alt="AgratAmAgatha Screenshot 1" />
+                <img src="~/images/work_2/aaa_2.png" asp-append-version="true" alt="AgratAmAgatha Screenshot 2" />
+                <img src="~/images/work_2/aaa_3.png" asp-append-version="true" alt="AgratAmAgatha Screenshot 3" />
+            </div>
+            <a href="https://agratamagatha.de/" target="_blank" class="project-link">@Localizer["Work_VisitWebsite"]</a>
+        </div>
+        
+        <div class="project-card">
+            <h3>Taiga Trece</h3>
+            <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Localization</span>
+            </div>
+            <p>@Localizer["Work_TaigaDesc"]</p>
+            <div class="project-images">
+                <img src="~/images/work_3/taiga_1.png" asp-append-version="true" alt="Rap Artist Website Screenshot 1" />
+                <img src="~/images/work_3/taiga_2.png" asp-append-version="true" alt="Rap Artist Website Screenshot 2" />
+                <img src="~/images/work_3/taiga_3.png" asp-append-version="true" alt="Rap Artist Website Screenshot 3" />
+                <img src="~/images/work_3/taiga_4.png" asp-append-version="true" alt="Rap Artist Website Screenshot 4" />
+            </div>
+            <a href="https://taiga.supacoda.de/m" target="_blank" class="project-link">@Localizer["Work_VisitWebsite"]</a>
+        </div>
+    </div>
+</div>
+
+<!-- Image Lightbox -->
+<div id="image-lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Enlarged view">
+</div>

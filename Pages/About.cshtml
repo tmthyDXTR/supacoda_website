@@ -1,0 +1,87 @@
+@page
+@model AboutModel
+@{
+    ViewData["Title"] = Localizer["About_Title"].Value;
+}
+
+<div class="content-section">
+    <h1>@Localizer["About_Title"]</h1>
+    <div class="content-box">
+        <p>@Localizer["About_Intro"]</p>
+        
+        <h2>@Localizer["About_Skills"]</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>@Localizer["About_Frontend"]</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Vite</li>
+                    <li>HTML/CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_Backend"]</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                    <li>Dotnet</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_EnterpriseSystems"]</h3>
+                <ul>
+                    <li>PHP</li>
+                    <li>@Localizer["About_PDFGeneration"]</li>
+                    <li>@Localizer["About_InvoiceManagement"]</li>
+                    <li>E-Rechnungen</li>
+                    <li>ERP Systems</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_Mobile"]</h3>
+                <ul>
+                    <li>Cordova</li>
+                    <li>React Native</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_Databases"]</h3>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_ToolsPlatforms"]</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>PowerShell</li>
+                    <li>Batch</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_GameDev"]</h3>
+                <ul>
+                    <li>Unity</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>@Localizer["About_Design"]</h3>
+                <ul>
+                    <li>@Localizer["About_GraphicDesign"]</li>
+                    <li>UI/UX</li>
+                    <li>Adobe Creative Suite</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2>@Localizer["About_Experience"]</h2>
+        <p>@Localizer["About_ExperienceText"]</p>
+        
+        <h2>@Localizer["About_Interests"]</h2>
+        <p>@Localizer["About_InterestsText"]</p>
+    </div>
+</div>

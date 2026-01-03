@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="0" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter</value>
+  </resheader>
+
+  <!-- Navigation -->
+  <data name="Nav_Work" xml:space="preserve">
+    <value>Projekte</value>
+  </data>
+  <data name="Nav_About" xml:space="preserve">
+    <value>Über mich</value>
+  </data>
+  <data name="Nav_Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Nav_Impressum" xml:space="preserve">
+    <value>Impressum</value>
+  </data>
+
+  <!-- Index/Home -->
+  <data name="Home_Title" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="Home_Slogan" xml:space="preserve">
+    <value>Software &amp; Design</value>
+  </data>
+
+  <!-- About Page -->
+  <data name="About_Title" xml:space="preserve">
+    <value>Über mich</value>
+  </data>
+  <data name="About_Intro" xml:space="preserve">
+    <value>Full-Stack-Entwickler und Grafikdesigner mit Psychologie-Hintergrund. Ich erschaffe digitale Erlebnisse, die schön, funktional und darauf ausgerichtet sind, wie Menschen tatsächlich denken und handeln.</value>
+  </data>
+  <data name="About_Skills" xml:space="preserve">
+    <value>Fähigkeiten</value>
+  </data>
+  <data name="About_Frontend" xml:space="preserve">
+    <value>Frontend</value>
+  </data>
+  <data name="About_Backend" xml:space="preserve">
+    <value>Backend</value>
+  </data>
+  <data name="About_EnterpriseSystems" xml:space="preserve">
+    <value>Unternehmenssysteme</value>
+  </data>
+  <data name="About_Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="About_Databases" xml:space="preserve">
+    <value>Datenbanken</value>
+  </data>
+  <data name="About_ToolsPlatforms" xml:space="preserve">
+    <value>Tools/Plattformen</value>
+  </data>
+  <data name="About_GameDev" xml:space="preserve">
+    <value>Spieleentwicklung</value>
+  </data>
+  <data name="About_Design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="About_Experience" xml:space="preserve">
+    <value>Erfahrung</value>
+  </data>
+  <data name="About_ExperienceText" xml:space="preserve">
+    <value>Ich arbeite mit Enterprise-Softwarelösungen und spezialisiere mich auf Backend-PHP-Entwicklung, automatisierte Rechnungs- und PDF-Generierung, E-Rechnungen-Compliance und individuelle ERP-Systemimplementierung. Diese Arbeit hat mir tiefgehende Expertise in Geschäftslogik, Datenbankoptimierung und regulatorischer Compliance im Finanzsektor verschafft. Kombiniert mit meiner freiberuflichen Tätigkeit in Webentwicklung, Spieldesign und Creative Coding bringe ich eine einzigartige Perspektive für die Entwicklung sowohl verbraucherorientierter als auch unternehmensweiter Anwendungen mit.</value>
+  </data>
+  <data name="About_Interests" xml:space="preserve">
+    <value>Interessen</value>
+  </data>
+  <data name="About_InterestsText" xml:space="preserve">
+    <value>Creative Coding, interaktives Design und analoge Fotografie – die Schnittstelle zwischen Ästhetik, Psychologie und bewusster Einfachheit erkunden. Ich bevorzuge eleganten Minimalismus gegenüber unnötiger Komplexität. Ob beim Gestalten von Benutzeroberflächen oder beim Komponieren von Fotografien – mich zieht bewusste Arbeit an, die die Zeit und Aufmerksamkeit der Menschen respektiert.</value>
+  </data>
+  <data name="About_GraphicDesign" xml:space="preserve">
+    <value>Grafikdesign</value>
+  </data>
+  <data name="About_InvoiceManagement" xml:space="preserve">
+    <value>Rechnungsmanagement</value>
+  </data>
+  <data name="About_PDFGeneration" xml:space="preserve">
+    <value>PDF-Generierung</value>
+  </data>
+
+  <!-- Contact Page -->
+  <data name="Contact_Title" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Contact_Intro" xml:space="preserve">
+    <value>Lass uns vernetzen! Melde dich für Zusammenarbeiten, Projekte oder einfach um Hallo zu sagen.</value>
+  </data>
+
+  <!-- Impressum Page -->
+  <data name="Impressum_Title" xml:space="preserve">
+    <value>Impressum</value>
+  </data>
+  <data name="Impressum_InfoHeader" xml:space="preserve">
+    <value>Angaben gemäß § 5 TMG</value>
+  </data>
+  <data name="Impressum_Country" xml:space="preserve">
+    <value>Deutschland</value>
+  </data>
+  <data name="Impressum_ContactHeader" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Impressum_ResponsibleHeader" xml:space="preserve">
+    <value>Verantwortlich für den Inhalt gemäß § 55 Abs. 2 RStV</value>
+  </data>
+  <data name="Impressum_AddressAsAbove" xml:space="preserve">
+    <value>Adresse wie oben</value>
+  </data>
+
+  <!-- Work Page -->
+  <data name="Work_Title" xml:space="preserve">
+    <value>Projekte</value>
+  </data>
+  <data name="Work_Intro" xml:space="preserve">
+    <value>Entdecke mein Portfolio an Projekten und kreativen Arbeiten.</value>
+  </data>
+  <data name="Work_MixGenussDesc" xml:space="preserve">
+    <value>Eine umfassende Koch-App für Thermomix-Nutzer mit über 20.000 Downloads im Google Play Store und iOS App-Store. Features umfassen eine große Rezeptdatenbank, intelligente Einkaufslisten, persönliche Rezeptsammlungen und exklusive digitale Kochbücher.</value>
+  </data>
+  <data name="Work_ViewOnGooglePlay" xml:space="preserve">
+    <value>Im Google Play ansehen</value>
+  </data>
+  <data name="Work_ViewOnAppStore" xml:space="preserve">
+    <value>Im iOS App-Store ansehen</value>
+  </data>
+  <data name="Work_AAADesc" xml:space="preserve">
+    <value>Organisationswebsite für einen Jugendförderverein und Musikfestival. Features umfassen Eventmanagement, individuelle Shop-Integration für Tickets und Merchandise sowie umfassendes Content-Management für Community-Engagement.</value>
+  </data>
+  <data name="Work_VisitWebsite" xml:space="preserve">
+    <value>Website besuchen</value>
+  </data>
+  <data name="Work_TaigaDesc" xml:space="preserve">
+    <value>Eine moderne, mehrsprachige Website für eine deutsch-spanische Rap-Künstlerin in verschiedenen Sprachen.</value>
+  </data>
+
+  <!-- Language Toggle -->
+  <data name="Language_Toggle" xml:space="preserve">
+    <value>EN</value>
+  </data>
+</root>

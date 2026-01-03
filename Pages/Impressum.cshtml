@@ -1,0 +1,30 @@
+@page
+@model ImpressumModel
+@{
+    ViewData["Title"] = Localizer["Impressum_Title"].Value;
+}
+
+<div class="content-section">
+    <h1>@Localizer["Impressum_Title"]</h1>
+    <div class="content-box">
+        <h2>@Localizer["Impressum_InfoHeader"]</h2>
+        <p>
+            supacoda<br>
+            Michael Lang<br>
+            Kopfstattstr. 2<br>
+            93309 Kelheim<br>
+            @Localizer["Impressum_Country"]
+        </p>
+        
+        <h2>@Localizer["Impressum_ContactHeader"]</h2>
+        <p>
+            E-Mail: info@supacoda.de
+        </p>
+        
+        <h2>@Localizer["Impressum_ResponsibleHeader"]</h2>
+        <p>
+            Michael Lang<br>
+            @Localizer["Impressum_AddressAsAbove"]
+        </p>
+    </div>
+</div>

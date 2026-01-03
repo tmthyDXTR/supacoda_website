@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="@System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - supacoda</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body data-page="@ViewData["Title"]">
+    <canvas id="geometric-background"></canvas>
+    <header>
+        <nav class="minimal-nav">
+            <div class="nav-brand">
+                <a asp-area="" asp-page="/Index">
+                    <img src="~/images/supacoda_logo-01.svg" asp-append-version="true" alt="supacoda logo" class="site-logo" />
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a asp-area="" asp-page="/Work">@Localizer["Nav_Work"]</a></li>
+                    <li><a asp-area="" asp-page="/About">@Localizer["Nav_About"]</a></li>
+                    <li><a asp-area="" asp-page="/Contact">@Localizer["Nav_Contact"]</a></li>
+                    <li><a asp-area="" asp-page="/Impressum">@Localizer["Nav_Impressum"]</a></li>
+                </ul>
+                <div class="toggle-buttons">
+                    @{
+                        var currentCulture = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+                        var targetCulture = currentCulture == "de" ? "en" : "de";
+                    }
+                    <form asp-page="/SetLanguage" method="post" class="language-form">
+                        <input type="hidden" name="culture" value="@targetCulture" />
+                        <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                        <button type="submit" class="lang-toggle" aria-label="Toggle language">
+                            @Localizer["Language_Toggle"]
+                        </button>
+                    </form>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        @RenderBody()
+    </main>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
