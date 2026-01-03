@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work - supacoda</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body data-page="work">
+    <canvas id="geometric-background"></canvas>
+    <header>
+        <nav class="minimal-nav">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="images/supacoda_logo-01.svg" alt="supacoda logo" class="site-logo" />
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="work.html" data-i18n="Nav_Work">Work</a></li>
+                    <li><a href="about.html" data-i18n="Nav_About">About</a></li>
+                    <li><a href="contact.html" data-i18n="Nav_Contact">Contact</a></li>
+                    <li><a href="impressum.html" data-i18n="Nav_Impressum">Imprint</a></li>
+                </ul>
+                <div class="toggle-buttons">
+                    <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Toggle language" data-i18n="Language_Toggle">DE</button>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="content-section">
+            <h1 data-i18n="Work_Title">Work</h1>
+            <p data-i18n="Work_Intro">Explore my portfolio of projects and creative work.</p>
+            
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>MixGenuss App</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Cordova</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Android</span>
+                    </div>
+                    <p data-i18n="Work_MixGenussDesc">A comprehensive cooking app for Thermomix users...</p>
+                    <div class="project-images">
+                        <img src="images/work_1/mixg_01.png" alt="MixGenuss Screenshot 1" />
+                        <img src="images/work_1/mixg_02.png" alt="MixGenuss Screenshot 2" />
+                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=de.mixgenuss&hl=de" target="_blank" class="project-link" data-i18n="Work_ViewOnGooglePlay">View on Google Play</a>
+                    <a href="https://apps.apple.com/de/app/mixgenuss/id1643532655" target="_blank" class="project-link" data-i18n="Work_ViewOnAppStore">View on iOS App-Store</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>AgratAmAgatha Festival</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Custom Shop</span>
+                    </div>
+                    <p data-i18n="Work_AAADesc">Organizational website for a youth development association...</p>
+                    <div class="project-images">
+                        <img src="images/work_2/aaa_1.png" alt="AgratAmAgatha Screenshot 1" />
+                        <img src="images/work_2/aaa_2.png" alt="AgratAmAgatha Screenshot 2" />
+                        <img src="images/work_2/aaa_3.png" alt="AgratAmAgatha Screenshot 3" />
+                    </div>
+                    <a href="https://agratamagatha.de/" target="_blank" class="project-link" data-i18n="Work_VisitWebsite">Visit Website</a>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Taiga Trece</h3>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Vite</span>
+                        <span class="tech-tag">Localization</span>
+                    </div>
+                    <p data-i18n="Work_TaigaDesc">A modern, multilingual website for a rap artist...</p>
+                    <div class="project-images">
+                        <img src="images/work_3/taiga_1.png" alt="Taiga Website Screenshot 1" />
+                        <img src="images/work_3/taiga_2.png" alt="Taiga Website Screenshot 2" />
+                        <img src="images/work_3/taiga_3.png" alt="Taiga Website Screenshot 3" />
+                        <img src="images/work_3/taiga_4.png" alt="Taiga Website Screenshot 4" />
+                    </div>
+                    <a href="https://taiga.supacoda.de/m" target="_blank" class="project-link" data-i18n="Work_VisitWebsite">Visit Website</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Image Lightbox -->
+    <div id="image-lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Enlarged view">
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>

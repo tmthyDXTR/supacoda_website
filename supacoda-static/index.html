@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home - supacoda</title>
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body data-page="index">
+    <canvas id="geometric-background"></canvas>
+    <header>
+        <nav class="minimal-nav">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <img src="images/supacoda_logo-01.svg" alt="supacoda logo" class="site-logo" />
+                </a>
+            </div>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="work.html" data-i18n="Nav_Work">Work</a></li>
+                    <li><a href="about.html" data-i18n="Nav_About">About</a></li>
+                    <li><a href="contact.html" data-i18n="Nav_Contact">Contact</a></li>
+                    <li><a href="impressum.html" data-i18n="Nav_Impressum">Imprint</a></li>
+                </ul>
+                <div class="toggle-buttons">
+                    <button type="button" class="lang-toggle" id="lang-toggle" aria-label="Toggle language" data-i18n="Language_Toggle">DE</button>
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="hero">
+            <p data-i18n="Home_Slogan">Software & Design</p>
+        </div>
+    </main>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/site.js"></script>
+</body>
+</html>
